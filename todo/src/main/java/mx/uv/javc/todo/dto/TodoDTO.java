@@ -5,7 +5,7 @@ public class TodoDTO {
     private String title;
     private String description;
     private boolean completed;
-    private String chavito;
+    private String chavita;
     
     public long getId() {
         return id;

@@ -5,13 +5,14 @@ public class Todo {
     private String title;
     private String description;
     private boolean completed;
-    private String nombre;
+    private String apellido;
 
     public Todo(long id, String title, String description, boolean completed) {
         this.id = id;
         this.title = title;
         this.description = description;
         this.completed = completed;
+        
     }
 
     public long getId() {
